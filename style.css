@@ -1,0 +1,223 @@
+/* GENERAL */
+body {
+  background: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* CONTENEDOR */
+.container {
+  width: 360px;
+  background: #fff8e7;
+  border-radius: 30px;
+  padding: 25px;
+  margin: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+/* PERFIL */
+.profile {
+  text-align: center;
+}
+
+/* FOTO */
+.avatar {
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  border-radius: 50%;
+  border: 6px solid #b39ca9;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* NOMBRE */
+.profile h1 {
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+.profile span {
+  color: #000000;
+}
+
+/* DESCRIPCIÓN */
+.profile p {
+  color: #777;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* ICONOS */
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.icons div {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #cfc4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+/* STICKERS */
+.sticker {
+  position: absolute;
+  width: 60px;
+  top: 10px;
+  right: 10px;
+  z-index: 0;
+}
+
+/* SECCIONES */
+section {
+  margin-top: 25px;
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* CARD */
+.card {
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 18px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* HABILIDADES */
+.skill {
+  background: #f7f7f7;
+  padding: 12px;
+  border-radius: 15px;
+  margin-bottom: 12px;
+}
+
+.skill-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.bar {
+  background: #ddd;
+  height: 8px;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+
+.progress {
+  background: #5ecaa9;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* PROYECTOS */
+.project {
+  padding: 15px;
+  border-radius: 18px;
+  margin-bottom: 12px;
+}
+
+.project h3 {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.project p {
+  font-size: 13px;
+  color: #555;
+}
+
+/* TAG */
+.tag {
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.05);
+}
+
+/* COLORES */
+.p1 {
+  background: #ffe5de;
+  border: 1px solid #ffcfc4;
+}
+
+.p2 {
+  background: #eee6ff;
+  border: 1px solid #d2cced;
+}
+
+/* CONTACTO */
+.contact {
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.contact button {
+  margin-top: 12px;
+  padding: 12px;
+  border: none;
+  background: #b39ca9;
+  color: white;
+  border-radius: 12px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact button:hover {
+  background: #d4bcca;
+}
+
+/* BOTÓN SIGUIENTE */
+.next-section {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.next-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #cfc4c4;
+  color: black;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.next-btn:hover {
+  background: #cfc4c4;
+  transform: scale(1.05);
+}
+
+.project-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
